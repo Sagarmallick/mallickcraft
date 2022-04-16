@@ -1,0 +1,40 @@
+
+/* ql button and animation  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 > span{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.in,.ne{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#circle{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#circle:before{
+    content: "";
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid #c5ccda;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* ql button and animation ends  */
+

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-voilet-900{
+    background-color: #5C3EB3;
+}
+.primary-color{
+    color: #5C3EB3;
+}
+
+.text-redish-300{
+    color: #CE698B;
+}
+.bg-offwhite{
+    background-color: #FBFBFD;
+}
+
+.peach-light{
+    color: #E0E8B7;
+}
+
+.contact-negative{
+    height: 60rem;
+  }

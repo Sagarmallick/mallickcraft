@@ -1,0 +1,14 @@
+{
+  "name": "mallikcraft",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build":"build parcel",
+    "watch":"tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
